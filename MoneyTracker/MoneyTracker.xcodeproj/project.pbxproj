@@ -12,7 +12,7 @@
 		A7C47F4F2A5F5911000FB297 /* MoneyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C47F4E2A5F5911000FB297 /* MoneyTrackerApp.swift */; };
 		A7C47F512A5F5911000FB297 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C47F502A5F5911000FB297 /* Persistence.swift */; };
 		A7C47F542A5F5911000FB297 /* MoneyTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7C47F522A5F5911000FB297 /* MoneyTracker.xcdatamodeld */; };
-		A7C47F562A5F5911000FB297 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C47F552A5F5911000FB297 /* ContentView.swift */; };
+		A7C47F562A5F5911000FB297 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C47F552A5F5911000FB297 /* TransactionsView.swift */; };
 		A7C47F582A5F5912000FB297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7C47F572A5F5912000FB297 /* Assets.xcassets */; };
 		A7C47F5C2A5F5912000FB297 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7C47F5B2A5F5912000FB297 /* Preview Assets.xcassets */; };
 		A7C47F662A5F5912000FB297 /* MoneyTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C47F652A5F5912000FB297 /* MoneyTrackerTests.swift */; };
@@ -48,7 +48,7 @@
 		A7C47F4E2A5F5911000FB297 /* MoneyTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerApp.swift; sourceTree = "<group>"; };
 		A7C47F502A5F5911000FB297 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A7C47F532A5F5911000FB297 /* MoneyTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyTracker.xcdatamodel; sourceTree = "<group>"; };
-		A7C47F552A5F5911000FB297 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7C47F552A5F5911000FB297 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
 		A7C47F572A5F5912000FB297 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7C47F592A5F5912000FB297 /* MoneyTracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MoneyTracker.entitlements; sourceTree = "<group>"; };
 		A7C47F5B2A5F5912000FB297 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -114,7 +114,7 @@
 				A7C531642A65FB8200A2FBA3 /* Model */,
 				A7C47F4E2A5F5911000FB297 /* MoneyTrackerApp.swift */,
 				A7C47F502A5F5911000FB297 /* Persistence.swift */,
-				A7C47F552A5F5911000FB297 /* ContentView.swift */,
+				A7C47F552A5F5911000FB297 /* TransactionsView.swift */,
 				A76B6E4F2A852D130091BE98 /* AddTransactionView.swift */,
 				A76B6E512A852DC90091BE98 /* AddTransactionViewModel.swift */,
 				A7C47F572A5F5912000FB297 /* Assets.xcassets */,
@@ -305,7 +305,7 @@
 				A76B6E522A852DC90091BE98 /* AddTransactionViewModel.swift in Sources */,
 				A7C531662A65FB8E00A2FBA3 /* MTTransaction.swift in Sources */,
 				A7C47F542A5F5911000FB297 /* MoneyTracker.xcdatamodeld in Sources */,
-				A7C47F562A5F5911000FB297 /* ContentView.swift in Sources */,
+				A7C47F562A5F5911000FB297 /* TransactionsView.swift in Sources */,
 				A7C47F512A5F5911000FB297 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
