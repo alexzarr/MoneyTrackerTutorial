@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A76B6E502A852D130091BE98 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76B6E4F2A852D130091BE98 /* AddTransactionView.swift */; };
+		A76B6E522A852DC90091BE98 /* AddTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76B6E512A852DC90091BE98 /* AddTransactionViewModel.swift */; };
 		A7C47F4F2A5F5911000FB297 /* MoneyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C47F4E2A5F5911000FB297 /* MoneyTrackerApp.swift */; };
 		A7C47F512A5F5911000FB297 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C47F502A5F5911000FB297 /* Persistence.swift */; };
 		A7C47F542A5F5911000FB297 /* MoneyTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7C47F522A5F5911000FB297 /* MoneyTracker.xcdatamodeld */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A76B6E4F2A852D130091BE98 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		A76B6E512A852DC90091BE98 /* AddTransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewModel.swift; sourceTree = "<group>"; };
 		A7C47F4B2A5F5910000FB297 /* MoneyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C47F4E2A5F5911000FB297 /* MoneyTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerApp.swift; sourceTree = "<group>"; };
 		A7C47F502A5F5911000FB297 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				A7C47F4E2A5F5911000FB297 /* MoneyTrackerApp.swift */,
 				A7C47F502A5F5911000FB297 /* Persistence.swift */,
 				A7C47F552A5F5911000FB297 /* ContentView.swift */,
+				A76B6E4F2A852D130091BE98 /* AddTransactionView.swift */,
+				A76B6E512A852DC90091BE98 /* AddTransactionViewModel.swift */,
 				A7C47F572A5F5912000FB297 /* Assets.xcassets */,
 				A7C47F592A5F5912000FB297 /* MoneyTracker.entitlements */,
 				A7C47F522A5F5911000FB297 /* MoneyTracker.xcdatamodeld */,
@@ -293,8 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A76B6E502A852D130091BE98 /* AddTransactionView.swift in Sources */,
 				A7C47F4F2A5F5911000FB297 /* MoneyTrackerApp.swift in Sources */,
 				A7C531682A65FBEA00A2FBA3 /* MTTransactionType.swift in Sources */,
+				A76B6E522A852DC90091BE98 /* AddTransactionViewModel.swift in Sources */,
 				A7C531662A65FB8E00A2FBA3 /* MTTransaction.swift in Sources */,
 				A7C47F542A5F5911000FB297 /* MoneyTracker.xcdatamodeld in Sources */,
 				A7C47F562A5F5911000FB297 /* ContentView.swift in Sources */,
