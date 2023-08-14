@@ -11,6 +11,8 @@ import CoreData
 struct TransactionsView: View {
     @Environment(\.managedObjectContext) private var viewContext
     
+    @StateObject var viewModel = TransactionsViewModel()
+    
     @FetchRequest(fetchRequest: MTTransaction.fetchRequest())
     private var transactions
     
@@ -30,12 +32,16 @@ struct TransactionsView: View {
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button {
-                        //
-                    } label: {
+                    Button(action: viewModel.showAddTransactions) {
                         Label("Add Transaction", systemImage: "plus")
                     }
                     
+                }
+            }
+            .sheet(item: $viewModel.activeSheet) { item in
+                switch item {
+                case .addTransaction:
+                    AddTransactionView()
                 }
             }
         }
@@ -44,6 +50,7 @@ struct TransactionsView: View {
 
 struct TransactionsView_Previews: PreviewProvider {
     static var previews: some View {
-        TransactionsView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        TransactionsView()
+            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
