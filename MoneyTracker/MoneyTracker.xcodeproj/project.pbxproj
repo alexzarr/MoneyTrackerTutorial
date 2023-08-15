@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A71834BC2A8AE89C000128F5 /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71834BB2A8AE89C000128F5 /* TransactionsViewModel.swift */; };
+		A7601AC02A8C38D1003A6F73 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7601ABF2A8C38D1003A6F73 /* Colors.xcassets */; };
+		A7601AC22A8C38F5003A6F73 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7601AC12A8C38F5003A6F73 /* Color+Extensions.swift */; };
+		A7601AC62A8C3D6C003A6F73 /* MainButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7601AC52A8C3D6C003A6F73 /* MainButtonModifier.swift */; };
 		A76B6E502A852D130091BE98 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76B6E4F2A852D130091BE98 /* AddTransactionView.swift */; };
 		A76B6E522A852DC90091BE98 /* AddTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76B6E512A852DC90091BE98 /* AddTransactionViewModel.swift */; };
 		A7C47F4F2A5F5911000FB297 /* MoneyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C47F4E2A5F5911000FB297 /* MoneyTrackerApp.swift */; };
@@ -44,6 +47,9 @@
 
 /* Begin PBXFileReference section */
 		A71834BB2A8AE89C000128F5 /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
+		A7601ABF2A8C38D1003A6F73 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		A7601AC12A8C38F5003A6F73 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		A7601AC52A8C3D6C003A6F73 /* MainButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButtonModifier.swift; sourceTree = "<group>"; };
 		A76B6E4F2A852D130091BE98 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
 		A76B6E512A852DC90091BE98 /* AddTransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewModel.swift; sourceTree = "<group>"; };
 		A7C47F4B2A5F5910000FB297 /* MoneyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +96,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7601AC32A8C3A87003A6F73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7C47F572A5F5912000FB297 /* Assets.xcassets */,
+				A7601ABF2A8C38D1003A6F73 /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7601AC42A8C3A8F003A6F73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A7601AC12A8C38F5003A6F73 /* Color+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		A7C47F422A5F5910000FB297 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +136,7 @@
 		A7C47F4D2A5F5911000FB297 /* MoneyTracker */ = {
 			isa = PBXGroup;
 			children = (
+				A7601AC42A8C3A8F003A6F73 /* Extensions */,
 				A7C531642A65FB8200A2FBA3 /* Model */,
 				A7C47F4E2A5F5911000FB297 /* MoneyTrackerApp.swift */,
 				A7C47F502A5F5911000FB297 /* Persistence.swift */,
@@ -120,7 +144,8 @@
 				A71834BB2A8AE89C000128F5 /* TransactionsViewModel.swift */,
 				A76B6E4F2A852D130091BE98 /* AddTransactionView.swift */,
 				A76B6E512A852DC90091BE98 /* AddTransactionViewModel.swift */,
-				A7C47F572A5F5912000FB297 /* Assets.xcassets */,
+				A7601AC52A8C3D6C003A6F73 /* MainButtonModifier.swift */,
+				A7601AC32A8C3A87003A6F73 /* Resources */,
 				A7C47F592A5F5912000FB297 /* MoneyTracker.entitlements */,
 				A7C47F522A5F5911000FB297 /* MoneyTracker.xcdatamodeld */,
 				A7C47F5A2A5F5912000FB297 /* Preview Content */,
@@ -276,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7601AC02A8C38D1003A6F73 /* Colors.xcassets in Resources */,
 				A7C47F5C2A5F5912000FB297 /* Preview Assets.xcassets in Resources */,
 				A7C47F582A5F5912000FB297 /* Assets.xcassets in Resources */,
 			);
@@ -307,7 +333,9 @@
 				A7C47F4F2A5F5911000FB297 /* MoneyTrackerApp.swift in Sources */,
 				A7C531682A65FBEA00A2FBA3 /* MTTransactionType.swift in Sources */,
 				A76B6E522A852DC90091BE98 /* AddTransactionViewModel.swift in Sources */,
+				A7601AC22A8C38F5003A6F73 /* Color+Extensions.swift in Sources */,
 				A7C531662A65FB8E00A2FBA3 /* MTTransaction.swift in Sources */,
+				A7601AC62A8C3D6C003A6F73 /* MainButtonModifier.swift in Sources */,
 				A7C47F542A5F5911000FB297 /* MoneyTracker.xcdatamodeld in Sources */,
 				A7C47F562A5F5911000FB297 /* TransactionsView.swift in Sources */,
 				A7C47F512A5F5911000FB297 /* Persistence.swift in Sources */,

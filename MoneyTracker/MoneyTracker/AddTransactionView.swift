@@ -35,6 +35,12 @@ struct AddTransactionView: View {
                 }
                 
                 Spacer()
+                
+                Button(action: viewModel.saveTransaction) {
+                    Text("Add")
+                        .mainButton()
+                }
+                .padding(.horizontal)
             }
             .padding()
             .navigationTitle(Text("New transaction"))

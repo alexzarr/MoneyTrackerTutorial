@@ -13,4 +13,8 @@ final class AddTransactionViewModel: ObservableObject {
     @Published var madeOn = Date()
     
     let currencyCode = Locale.current.currency?.identifier ?? "USD"
+    
+    func saveTransaction() {
+        
+    }
 }
